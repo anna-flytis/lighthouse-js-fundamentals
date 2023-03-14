@@ -1,6 +1,6 @@
 function isOdd(x){
   if (x % 2 == 0){
-    return "Number is even";
+    return "Number is not Odd'";
   } else return "Number is Odd";
 }
 
