@@ -1,5 +1,7 @@
 function isOdd(x){
-return x % 2;
+  if (x % 2 == 0){
+    return "Number is even";
+  } else return "Number is Odd";
 }
 
 console.log("3 is odd: " + isOdd(3));
